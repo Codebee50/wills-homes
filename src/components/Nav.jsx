@@ -27,7 +27,7 @@ const Nav = () => {
         </nav>
 
         <a className="max-md:hidden">
-            <button className="font-worksans py-3 rounded-md px-7 bg-peach-10">Contact us</button>
+            <button className="font-outfit py-3 font-medium  rounded-md px-5 bg-peach-10">Contact us</button>
         </a>
     </header>
   )
