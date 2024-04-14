@@ -1,11 +1,12 @@
 import Nav from "../components/Nav"
 import background from '../assets/images/home-background.png'
 import ShowcaseList from "../components/ShowcaseList"
+import house from '../assets/images/house.jpg'
 
 const Hero = () => {
   return (
-    <section className="w-full h-[95vh] relative">
-        <img src={background} alt="" className="w-full h-full object-center object-cover"/>
+    <section className="w-full h-[85vh] sm:h-[95vh] relative">
+        <img src={house} alt="" className="w-full h-full object-center object-cover"/>
         <section className="w-full h-full absolute top-0 bg-bg-overlay flex flex-col items-center">
              <Nav></Nav>
 
