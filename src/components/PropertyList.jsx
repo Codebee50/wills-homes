@@ -1,12 +1,11 @@
-import { PropertiesList } from "../constants"
 import PropertyItem from "./PropertyItem"
 
-const PropertyList = () => {
+const PropertyList = (props) => {
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
         {
-            PropertiesList.map((property)=> (
+            props.list.map((property)=> (
                 <PropertyItem key={property.title} {...property}/>
             ))
         }
