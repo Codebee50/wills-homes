@@ -15,6 +15,41 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+
+ 
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0.3rem;
+    background-color:#469DC7;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: #f1f2f2b4;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: #f1f2f2b4;
+  }
+
+  .hor-scrollbar::-webkit-scrollbar {
+    height: 5px;
+    width: 4px;
+    background-color:#469DC7;
+  }
+  
+  
+  .hor-scrollbar::-webkit-scrollbar-thumb:horizontal {
+    /* border-radius: 2rem; */
+    height: 5px;
+    background: #f1f2f2b4;
+  }
 }
 
 @layer utilities{

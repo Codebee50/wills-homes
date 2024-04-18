@@ -11,20 +11,22 @@ const PropertyDetail = () => {
 
             <div className="w-full min-h-screen flex flex-row p-4">
 
-                <div className="w-[50%] min-h-screen flex flex-row fixed">
+                <div className="w-[50%] min-h-screen flex flex-col fixed">
 
-                    <div className="w-[20%] min-h-screen flex flex-col items-center">
+                    <div className="w-[80%] ">
+                        <img src={h7} alt="" className="w-full h-[60vh] object-cover object-center rounded-md"/>
+                    </div>
 
+                    <div className="w-[80%] flex flex-row items-center overflow-x-scroll no-scrollbar">
                         <img src={h7} alt="" className="m-1 w-[90%] h-[100px] object-cover object-center rounded-md"/>
                         <img src={h7} alt="" className="m-1 w-[90%] h-[100px] object-cover object-center rounded-md"/>
                         <img src={h7} alt="" className="m-1 w-[90%] h-[100px] object-cover object-center rounded-md"/>
-
+                        <img src={h7} alt="" className="m-1 w-[90%] h-[100px] object-cover object-center rounded-md"/>
+                        <img src={h7} alt="" className="m-1 w-[90%] h-[100px] object-cover object-center rounded-md"/>
                     </div>
 
 
-                    <div className="w-[80%] min-h-screen">
-                        <img src={h7} alt="" className="w-full h-[90vh] object-cover object-center rounded-md"/>
-                    </div>
+                 
 
                 </div>
 
