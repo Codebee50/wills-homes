@@ -1,11 +1,11 @@
 const PropertyItem = (props) => {
   return (
-    <div className="rounded-md shadow-sm hover:shadow-md transition-all ease-in-out  flex flex-col">
+    <div className="rounded-md shadow-sm hover:shadow-md transition-all ease-in-out  flex flex-col bg-white">
         <div>
             <img src={props.image} className="w-full h-[300px] object-cover object-center" alt="" />
         </div>
 
-        <div className="flex flex-col p-5">
+        <div className="flex flex-col p-5 bg-white">
             <h3 className="font-semibold font-outfit text-[1.1rem] text-slate-600">{props.title}</h3>
             <p className="text-sm opacity-70 mt-1">{props.description}</p>
 
@@ -16,6 +16,10 @@ const PropertyItem = (props) => {
             <div className="mt-5 flex flex-row gap-2 items-center">               
                 <svg width={15} height={15} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3.00488 6.99972L11.4502 1.36952C11.7861 1.14559 12.2237 1.14559 12.5596 1.36952L21.0049 6.99972V20.9997C21.0049 21.552 20.5572 21.9997 20.0049 21.9997H4.00488C3.4526 21.9997 3.00488 21.552 3.00488 20.9997V6.99972ZM5.00488 8.07009V19.9997H19.0049V8.07009L12.0049 3.40342L5.00488 8.07009ZM12.0049 10.9997C10.9003 10.9997 10.0049 10.1043 10.0049 8.99972C10.0049 7.89515 10.9003 6.99972 12.0049 6.99972C13.1095 6.99972 14.0049 7.89515 14.0049 8.99972C14.0049 10.1043 13.1095 10.9997 12.0049 10.9997Z"></path></svg>
                 <p className="text-sm" >{props.houseType}</p>
+            </div>
+            <div className="mt-5 flex flex-row gap-2 items-center">    
+                <svg width={15} height={15} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17 19H19V14H10V5H5V7H7V9H5V11H8V13H5V15H7V17H5V19H7V17H9V19H11V16H13V19H15V17H17V19ZM12 12H20C20.5523 12 21 12.4477 21 13V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H11C11.5523 3 12 3.44772 12 4V12Z"></path></svg>           
+                <p className="text-sm" >{props.size}</p>
             </div>
 
 

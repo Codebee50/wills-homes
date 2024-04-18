@@ -16,7 +16,7 @@ const Properties = () => {
   }
 
   return (
-    <section className="min-h-screen bg-light-gray" id="properties">
+    <section className="min-h-screen bg-light-gray pt-2 sm:pt-5 pb-10" id="properties">
 
 
       <div className="padding-x w-full flex flex-col md:flex-row items-start md:items-end justify-between sticky top-0 bg-light-gray z-10 py-4">
