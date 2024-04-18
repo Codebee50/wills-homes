@@ -1,6 +1,6 @@
 const PropertyItem = (props) => {
   return (
-    <div className="rounded-md shadow-sm hover:shadow-md transition-all ease-in-out  flex flex-col bg-white">
+    <div className="rounded-md shadow-sm hover:shadow-md transition-all ease-in-out  flex flex-col bg-white cursor-pointer">
         <div>
             <img src={props.image} className="w-full h-[300px] object-cover object-center" alt="" />
         </div>
