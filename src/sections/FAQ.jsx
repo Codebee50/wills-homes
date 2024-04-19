@@ -8,8 +8,10 @@ const FAQ = () => {
   const [openFaq, setOpenFaq] = useState(1)
 
   const openFaqHandler = (index)=>{
-    setOpenFaq(index)
+    const computeindex = index===openFaq? 0: index
+    setOpenFaq(computeindex)
   }
+  
   return (
     <section className="w-full min-h-screen bg-white flex flex-col items-center justify-center max-container padding-x py-16">
         <h1 className="text-3xl font-poppins font-medium text-dark-txt">Frequently Asked Questions</h1>
