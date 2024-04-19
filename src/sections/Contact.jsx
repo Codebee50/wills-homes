@@ -2,7 +2,7 @@ import { Input } from "postcss"
 
 const Contact = () => {
   return (
-    <section className="max-container padding-x min-h-screen pt-10 md:pt-20 bg-[#c1d6f2] mt-10 flex flex-col items-center gap-10 md:flex-row justify-between">
+    <section className="max-container padding-x min-h-[70vh] py-10 md:pt-20 bg-[#c1d6f2] mt-10 flex flex-col gap-10 md:flex-row justify-between">
 
         <div className="flex flex-col w-full md:w-1/2">
             <h1 className="text-4xl font-bold font-poppins">Get in touch</h1>
@@ -11,14 +11,14 @@ const Contact = () => {
             <a href="mailto:info@willshomes.com" className="underline mt-6 font-medium">info@willshomes.com</a>
             <a href="mailto:info@willshomes.com" className="underline mt-3 font-medium">091 2816 8542</a>
 
-            <div className="mt-20 flex flex-row flex-wrap gap-10">
+            <div className=" mt-8 md:mt-20 flex flex-row flex-wrap gap-10">
                 <div>
                     <p className="font-outfit font-bold text-[1.2rem]">Customer support</p>
-                    <p className="max-w-[200px] text-sm">We prioritize your needs! Our customer support team is available around the clock to answer your questions. Contact us anytime.</p>
+                    <p className="max-w-[350px] sm:max-w-[200px] text-sm">We prioritize your needs! Our customer support team is available around the clock to answer your questions. Contact us anytime.</p>
                 </div>
                 <div>
                     <p className="font-outfit font-bold text-[1.2rem]">Feedback</p>
-                    <p className="max-w-[200px] text-sm">{"We're committed to using your feedback to enhance your experience."}</p>
+                    <p className="max-w-[350px] md:max-w-[200px] text-sm">{"We're committed to using your feedback to enhance your experience."}</p>
                 </div>
               
             </div>
