@@ -18,6 +18,7 @@ export default {
         'outfit': ['Outfit', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
       },
+     
       
     },
   },

@@ -18,7 +18,7 @@ const Nav = () => {
             <ul className="flex flex-row items-center gap-8">
                 {
                     navlinks.map((link)=>(
-                        <li key={link.label} className="font-poppins text-white">
+                        <li key={link.label} className="font-worksans text-white">
                             <a href={link.link}>{link.label}</a>
                         </li>
                     ))
@@ -27,7 +27,7 @@ const Nav = () => {
         </nav>
 
         <a className="max-md:hidden">
-            <button className="font-poppins py-3 font-medium  rounded-md px-5 bg-peach-10">Talk to us</button>
+            <button className="font-outfit py-3 font-medium  rounded-md px-5 bg-peach-10">Talk to us</button>
         </a>
     </header>
   )
