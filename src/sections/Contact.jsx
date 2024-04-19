@@ -1,7 +1,7 @@
 
 const Contact = () => {
   return (
-    <section className="max-container padding-x min-h-[70vh] py-10 md:pt-20 bg-[#c1d6f2] mt-10 flex flex-col gap-10 md:flex-row justify-between">
+    <section className="max-container padding-x min-h-[70vh] py-10 md:pt-20 bg-[#c1d6f2] flex flex-col gap-10 md:flex-row justify-between">
 
         <div className="flex flex-col w-full md:w-1/2">
             <h1 className="text-3xl font-bold font-poppins">Get in touch</h1>
