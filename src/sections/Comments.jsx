@@ -7,7 +7,7 @@ const Comments = () => {
   return (
     <section className="padding-x pt-10 md:pt-20 max-container flex flex-col-reverse md:flex-row min-h-[60vh] w-full">
       <div  className="w-ful md:w-1/2 max-md:mt-10">
-          <h1 className="text-dark-txt-10 font-bold text-4xl lg:text-4xl leading-10 font-poppins max-w-[600px]">Here is what our customers are saying about us</h1>
+          <h1 className="text-dark-txt-10 font-bold text-3xl lg:text-4xl leading-10 font-poppins max-w-[600px]">Here is what our customers are saying about us</h1>
 
           <div className="mt-5 md:mt-10 flex flex-row items-center gap-3">
             {/* <p className="font-medium text-[1.2rem] font-outfit text-dark-txt ">Top notch</p> */}

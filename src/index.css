@@ -64,4 +64,8 @@
   .padding-min {
     @apply sm:px-8 px-4;
   }
+
+  .closed-h{
+    height: 0;
+  }
 }

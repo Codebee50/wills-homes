@@ -140,3 +140,31 @@ export const PropertiesList = [
     },
 ];
 
+
+export const FAQList =[
+    {
+        question: "What types of properties does your company specialize in?",
+        answer: "Our company specializes in residential properties, including single-family homes, condos, townhouses, and luxury estates. We also handle commercial properties such as office buildings and retail spaces."
+    },
+    {
+        question: "Can you assist with both buying and selling properties?",
+        answer: "Yes, we offer comprehensive services for both buyers and sellers. Whether you're looking to purchase a new home or sell your existing property, our team is here to help every step of the way."
+    },
+    {
+        question: "How do you determine the value of a property?",
+        answer: "We utilize a variety of methods to determine the value of a property, including market analysis, comparable sales data, and assessment of property condition and amenities."
+    },
+    {
+        question: "What sets your company apart from other real estate agencies?",
+        answer: "Our company prides itself on personalized service, attention to detail, and a deep understanding of the local real estate market. We prioritize client satisfaction above all else and go the extra mile to exceed expectations."
+    },
+    {
+        question: "What fees and commissions do you charge for your services?",
+        answer: "Our fees and commissions vary depending on the type and complexity of the transaction. We offer transparent pricing and will provide you with a detailed breakdown of all costs before proceeding."
+    },
+    {
+        question: "Can you provide references or testimonials from past clients?",
+        answer: "Certainly, we have many satisfied clients who have provided testimonials praising our services. We would be happy to provide references upon request."
+    },
+ 
+]

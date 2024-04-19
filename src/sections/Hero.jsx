@@ -3,7 +3,6 @@ import Nav from "../components/Nav"
 // import ShowcaseList from "../components/ShowcaseList"
 // import house from '../assets/images/house.jpg'
 import interior from '../assets/images/interior.jpg'
-import { Fragment } from "react"
 // import home from '../assets/images/homepalour.jpg'
 const Hero = () => {
   return (
