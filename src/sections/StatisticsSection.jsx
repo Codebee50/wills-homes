@@ -2,7 +2,7 @@ import Statistics from "../components/Statistics"
 
 const StatisticsSection = () => {
   return (
-    <section className="w-full min-h-screen">
+    <section className="w-full">
         <Statistics/>
     </section>
   )

@@ -2,6 +2,7 @@ import { Fragment } from "react"
 import Hero from "../sections/Hero"
 import Properties from "../sections/Properties"
 import StatisticsSection from "../sections/StatisticsSection"
+import Comments from "../sections/Comments"
 
 
 const HomePage = () => {
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Hero></Hero>
       <Properties/>
       <StatisticsSection/>
+      <Comments/>
     </main>
   </Fragment>
   )
