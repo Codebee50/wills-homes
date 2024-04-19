@@ -1,4 +1,3 @@
-import { MdKeyboardArrowDown } from "react-icons/md";
 import { HiMiniMinus } from "react-icons/hi2";
 
 import { HiPlus } from "react-icons/hi2";
