@@ -3,6 +3,7 @@ import Hero from "../sections/Hero"
 import Properties from "../sections/Properties"
 import StatisticsSection from "../sections/StatisticsSection"
 import Comments from "../sections/Comments"
+import Contact from "../sections/Contact"
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Properties/>
       <StatisticsSection/>
       <Comments/>
+      <Contact/>
     </main>
   </Fragment>
   )

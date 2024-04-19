@@ -7,10 +7,10 @@ const Comments = () => {
   return (
     <section className="padding-x pt-10 md:pt-20 max-container flex flex-col-reverse md:flex-row min-h-[60vh] w-full">
       <div  className="w-ful md:w-1/2 max-md:mt-10">
-          <h1 className="text-dark-txt-10 font-bold text-3xl lg:text-4xl leading-10 font-outfit max-w-[600px]">Here is what our customers are saying about us</h1>
+          <h1 className="text-dark-txt-10 font-bold text-4xl lg:text-4xl leading-10 font-poppins max-w-[600px]">Here is what our customers are saying about us</h1>
 
           <div className="mt-5 md:mt-10 flex flex-row items-center gap-3">
-            <p className="font-medium text-[1.2rem] font-outfit text-dark-txt ">Top notch</p>
+            {/* <p className="font-medium text-[1.2rem] font-outfit text-dark-txt ">Top notch</p> */}
 
             <div className="flex flex-row items-center">
               <MdStarRate fill='#39B571' size={'1.5em'}/>
@@ -35,7 +35,7 @@ const Comments = () => {
       </div>
 
       <div className="w-full md:w-1/2 h-[60vh] from-white to-transparent relative m-auto">
-        <img src={homepalour} alt="" className="w-full h-full object-cover object-center"/>
+        <img src={homepalour} alt="" className="w-full h-full object-cover object-center" loading="lazy"/>
         <div className="w-full h-full absolute z-10 top-0 bg-gradient-to-t md:bg-gradient-to-r from-white">
 
         </div>

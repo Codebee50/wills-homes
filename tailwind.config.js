@@ -15,8 +15,8 @@ export default {
         'dark-txt-10': '#14233E'
       },
       fontFamily:{
-        'outfit': "['Outfit', 'sans-serif']",
-        'worksans': "['Work Sans', 'sans-serif']"
+        'outfit': ['Outfit', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
       },
       
     },

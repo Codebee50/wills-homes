@@ -15,7 +15,7 @@ const Hero = () => {
 
               <div className=" mt-20 self-center justify-self-center flex flex-col items-center justify-center">
                   <h1 className="text-center text-4xl sm:text-6xl font-outfit text-white font-bold leading-[1.3]">Live Where Your Heart <br /> Belongs.</h1>
-                  <p className="w-[90%] max-w-96 text-center text-white opacity-70 mt-2 max-sm:text-sm">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                  <p className="w-[90%] max-w-96 text-center font-poppins text-white opacity-70 mt-2 max-sm:text-sm">Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
                   <a className="md:hidden" href="#properties">
                       <button className="font-outfit py-3 font-medium  rounded-md px-5 bg-peach-10 mt-5">Get started</button>
                   </a>
